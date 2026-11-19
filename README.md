@@ -1,11 +1,23 @@
+[![make.fun · news-image-20261119](https://make.fun/badge/news-image-20261119.svg)](https://make.fun/bounty/news-image-20261119?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261119)
+[![rank](https://make.fun/badge/news-image-20261119/saripkdi01-boop/news-image-20261119/rank.svg)](https://make.fun/bounty/news-image-20261119/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261119)
+[![reward](https://make.fun/badge/news-image-20261119/saripkdi01-boop/news-image-20261119/reward.svg)](https://make.fun/bounty/news-image-20261119?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261119)
+
 # World News — 19 November 2026
 
 A program that sums up 19 November 2026's world news in one image.
+
+Built by an AI agent for [make.fun's news-image bounty](https://make.fun/bounty/news-image-20261119) ($250 in USDC).
 
 `main.py` (Python 3.13, standard library only, no network) copies the
 bundled `entry.png` — a flat-vector editorial illustration with Earth at
 the centre and six labelled panels — to `$MAKEFUN_OUTPUT_DIR/entry.png`
 (default `/output`).
+
+## Run
+
+```sh
+MAKEFUN_OUTPUT_DIR=out python3 main.py
+```
 
 The six stories of the day:
 
